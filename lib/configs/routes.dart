@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:sip_and_skip/screens/confirmation_screen.dart';
-import 'package:sip_and_skip/screens/login_screen.dart';
-import 'package:sip_and_skip/screens/registration_screen.dart';
-import 'package:sip_and_skip/screens/home_screen.dart';
-import 'package:sip_and_skip/screens/forgot_password_screen.dart';
+import 'package:template/screens/confirmation_screen.dart';
+import 'package:template/screens/login_screen.dart';
+import 'package:template/screens/registration_screen.dart';
+import 'package:template/screens/home_screen.dart';
+import 'package:template/screens/forgot_password_screen.dart';
 
 class AppRoutes {
   static const String login = '/login';

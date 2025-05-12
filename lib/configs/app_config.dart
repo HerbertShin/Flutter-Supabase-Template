@@ -3,7 +3,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 class AppConfig {
   static Future<void> loadEnv() async {
-    await dotenv.load(fileName: "/Users/herb/Developer/Flutter/sip_and_skip/.env");
+    await dotenv.load(fileName: "/Users/herb/Developer/Flutter/template/.env");
   }
 
   static String getSupabaseUrl() {

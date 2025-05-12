@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:sip_and_skip/app.dart';
-import 'package:sip_and_skip/screens/error_screen.dart';
-import 'package:sip_and_skip/configs/app_config.dart';
+import 'package:template/app.dart';
+import 'package:template/screens/error_screen.dart';
+import 'package:template/configs/app_config.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:sip_and_skip/widgets/custom_snackbar.dart';
-import 'package:sip_and_skip/utils/validation.dart';
+import 'package:template/widgets/custom_snackbar.dart';
+import 'package:template/utils/validation.dart';
 
 class ForgotPasswordScreen extends StatelessWidget {
   const ForgotPasswordScreen({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sip_and_skip/auth_wrapper.dart';
-import 'package:sip_and_skip/configs/routes.dart';
+import 'package:template/auth_wrapper.dart';
+import 'package:template/configs/routes.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -8,7 +8,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Sip and Skip',
+      title: 'Template App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
       ),

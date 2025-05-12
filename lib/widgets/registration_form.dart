@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sip_and_skip/utils/validation.dart';
+import 'package:template/utils/validation.dart';
 
 class RegistrationForm extends StatelessWidget {
   final GlobalKey<FormState> formKey;

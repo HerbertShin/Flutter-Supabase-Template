@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sip_and_skip/configs/routes.dart';
+import 'package:template/configs/routes.dart';
 
 class ConfirmationScreen extends StatelessWidget {
   const ConfirmationScreen({super.key});

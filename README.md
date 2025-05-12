@@ -35,5 +35,19 @@ This Flutter project provides a complete authentication template integrated with
 
 1. Clone the repository.
 2. Set up a Supabase project and configure the `.env` file with your `SUPABASE_URL` and `SUPABASE_ANON_KEY`.
-3. Update the Supabase redirect URL in the dashboard to match your app's deep link or route.
-4. Run the Flutter app and enjoy the seamless authentication flow.
+3. Update the `.env` file path in `lib/configs/app_configs.dart` to your file path.
+4. Update the Supabase redirect URL in the dashboard to match your app's deep link or route.
+5. Run the Flutter app and enjoy the seamless authentication flow.
+
+## Bulk Renaming Instructions in VS Code
+
+To replace all occurrences of a word or phrase across the project using VS Code:
+
+1. Open the **Search panel** by pressing `Cmd + Shift + F` (on Mac) or `Ctrl + Shift + F` (on Windows/Linux).
+2. In the search bar, type the word or phrase you want to replace (e.g., `template`).
+3. Click the small arrow next to the search bar to expand the options.
+4. In the **Replace** field, type the new word or phrase (e.g., `word_bridge`).
+5. Ensure the **Match Case** and **Match Whole Word** options are unchecked (unless needed).
+6. Click **Replace All** to apply the changes across the project.
+
+This is a quick and efficient way to rename variables, classes, or other text throughout your codebase.

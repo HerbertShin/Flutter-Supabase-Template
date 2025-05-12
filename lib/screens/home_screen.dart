@@ -1,7 +1,7 @@
-import 'package:sip_and_skip/configs/routes.dart';
-import 'package:sip_and_skip/services/auth_service.dart';
+import 'package:template/configs/routes.dart';
+import 'package:template/services/auth_service.dart';
 import 'package:flutter/material.dart';
-import 'package:sip_and_skip/widgets/custom_snackbar.dart';
+import 'package:template/widgets/custom_snackbar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
