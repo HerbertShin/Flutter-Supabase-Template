@@ -3,7 +3,8 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 class AppConfig {
   static Future<void> loadEnv() async {
-    await dotenv.load(fileName: "/Users/herb/Developer/Flutter/template/.env");
+    // Use root path ie. /Users/herb/Developer/Flutter/template/.env
+    await dotenv.load(fileName: "FULL_PATH");
   }
 
   static String getSupabaseUrl() {
