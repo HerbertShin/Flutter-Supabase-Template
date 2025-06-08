@@ -39,7 +39,9 @@ This Flutter project provides a complete authentication template integrated with
 4. Update the Supabase redirect URL in the dashboard to match your app's deep link or route.
 5. Run the Flutter app and enjoy the seamless authentication flow.
 
-## Bulk Renaming Instructions in VS Code
+## Bulk Renaming Instructions in VS Code to Change Project Name
+
+Use this to change the template project name across files.
 
 To replace all occurrences of a word or phrase across the project using VS Code:
 
